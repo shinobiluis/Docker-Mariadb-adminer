@@ -12,7 +12,7 @@ services:
       MYSQL_USER: test
       MYSQL_PASSWORD: test
     volumes:
-      # Montamos un volumen para MySQL para no perder los datos de bd
+      # Montamos un volumen para Mariadb para no perder los datos de bd
       - ./volumen/mysql:/var/lib/mysql
     expose:
       - 3306
